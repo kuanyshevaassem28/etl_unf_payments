@@ -144,8 +144,7 @@ SOURCES = [
              "field": "intercompany",
              "cond": "eq",
              "value": False
-            },
-            {"field": "document_id", "cond": "in", "value": document_ids}]
+            }
         },
         "source_path": "unf-test/receipt_payments",
         "file_prefix": "unf_receipt_payments"
